@@ -14,10 +14,10 @@ public class AssignmentApplication {
 	}
 
 	@GetMapping("/guzal")
-	public String index() {
+	public String guzal() {
 		return "hello!";
 	}
-    @GetMapping("/")
+        @GetMapping("/")
 	public String index() {
 		return "Greetings from CICD!";
 	}
